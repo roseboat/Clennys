@@ -1,0 +1,18 @@
+.skip-to-content {
+  display: none;
+}
+
+.sr-only {
+  position: absolute !important;
+  left: -99999999999px !important;
+  height: 0 !important;
+}
+
+@media (min-width: $screen-md) {
+  .skip-to-content {
+    height: 0px;
+    width: 0px;
+    overflow: hidden;
+    display: block;
+  }
+}

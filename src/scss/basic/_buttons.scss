@@ -1,0 +1,36 @@
+.btn,
+button {
+	@include transition(all 0.2s ease-in-out);
+	@include font-size(1.6, 2.4);
+	background: $c-green;
+	border: 2px solid $c-green;
+	color: $c-white;
+	padding: 10px 30px;
+	font-weight: 600;
+	cursor: pointer;
+	font-family: $f-body;
+	min-width: 120px;
+	margin-top: 15px;
+
+	&:hover {
+		background: transparent;
+		color: $c-green;
+	}
+
+	&.gold {
+		background: darken($c-gold, 10%);
+		border: 2px solid darken($c-gold, 10%);
+		color: $c-black;
+
+		&:hover {
+			background: transparent;
+			color: darken($c-gold, 10%);
+		}
+	}
+
+	&.bookNowBtn {
+		margin: 0px;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+	}
+}

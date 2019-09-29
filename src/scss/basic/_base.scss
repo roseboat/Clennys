@@ -1,0 +1,209 @@
+@-ms-viewport {
+	width: auto;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	@include font-size(1.6, 2.4);
+	// @include font-smoothing;
+	font-family: $f-body;
+	opacity: 1;
+	overflow-x: hidden;
+}
+
+img {
+	@include transition(opacity 0.5s ease-in-out);
+	opacity: 1;
+	display: block;
+	max-width: 100%;
+}
+
+img[data-src] {
+	opacity: 0;
+}
+
+h1,
+.h1 {
+	@include font-size(4, 4.8);
+}
+
+h2,
+.h2 {
+	@include font-size(2.8, 3.6);
+}
+
+h3,
+.h3 {
+	@include font-size(2.4, 3.2);
+}
+
+h4,
+.h4 {
+	@include font-size(2, 2.8);
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4 {
+	font-family: $f-title;
+	font-weight: bolder;
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+p {
+	@include font-size(1.6, 2.4);
+
+	&.preamble {
+		@include font-size(2, 2.8);
+	}
+}
+
+div {
+	&.preamble {
+		@include font-size(2, 2.8);
+	}
+}
+
+ul,
+ol {
+	li {
+		@include font-size(1.6, 2.4);
+	}
+}
+
+ul {
+	list-style: disc;
+}
+
+ol {
+	list-style: decimal;
+}
+
+blockquote {
+	@include font-size(2, 2.8);
+}
+
+em {
+	font-style: italic;
+}
+
+
+@media (min-width: $screen-sm) {
+	h1 {
+		@include font-size(5, 5.8);
+	}
+}
+
+@media (min-width:$screen-md) {
+
+	.page {
+		display: block !important;
+	}
+
+	h1,
+	.h1 {
+		@include font-size(6, 6.8);
+	}
+
+	h2,
+	.h2 {
+		@include font-size(3.2, 4);
+	}
+
+	h3,
+	.h3 {
+		@include font-size(2.8, 3.6);
+	}
+
+	h4,
+	.h4 {
+		@include font-size(2.4, 3.2);
+	}
+
+	p {
+
+		&.preamble {
+			@include font-size(2.2, 3);
+		}
+	}
+
+	div {
+		&.preamble {
+			@include font-size(2.2, 3);
+		}
+	}
+
+
+}
+
+@media (min-width:$screen-lg) {
+
+	h2,
+	.h2 {
+		@include font-size(3.6, 4.2);
+	}
+
+	h3,
+	.h3 {
+		@include font-size(3.2, 4);
+	}
+
+	h4,
+	.h4 {
+		@include font-size(2.6, 3.4);
+	}
+
+	p {
+		@include font-size(1.8, 2.4);
+	}
+
+	ul,
+	ol {
+		li {
+			@include font-size(1.8, 2.4);
+		}
+	}
+
+}
+
+@media (min-width:$screen-xxl) {
+
+
+	h2,
+	.h2 {
+		@include font-size(4, 4.8);
+	}
+
+	h3,
+	.h3 {
+		@include font-size(3.4, 4.2);
+	}
+
+	h4,
+	.h4 {
+		@include font-size(2.8, 3.6);
+	}
+
+	p {
+
+		&.preamble {
+			@include font-size(2.4, 3.2);
+		}
+	}
+
+	div {
+		&.preamble {
+			@include font-size(2.4, 3.2);
+		}
+	}
+
+}

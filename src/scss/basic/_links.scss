@@ -1,0 +1,11 @@
+a {
+	color: $c-green;
+	font-weight: bold;
+	text-decoration: none;
+	@include transition(all 0.4s ease-in-out);
+
+	&:hover {
+		color: $c-gold;
+	
+	}
+}

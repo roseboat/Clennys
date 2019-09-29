@@ -1,0 +1,23 @@
+/*Container Layout*/
+
+.container {
+	@include clearfix();
+	max-width: 1430px;
+	margin: 0 auto;
+	padding: 0 8%;
+	box-sizing: content-box;
+}
+
+
+@media (min-width: $screen-sm) {
+	.container {
+		padding: 0 10%;
+	}
+}
+
+
+@media (min-width: $screen-xxl) {
+	.container {
+		padding: 0 11%;
+	}
+}
