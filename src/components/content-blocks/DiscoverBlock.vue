@@ -44,7 +44,7 @@ export default {
   position: relative;
   padding: 40px;
   margin-right: auto;
-  // background-color: $c-white;
+background-color: rgba(255, 255, 255, 0.9);
 
 }
 
@@ -55,10 +55,6 @@ export default {
   }
   .discover-text {
     width: 60%;
-    // border: 3px solid rgba(255, 255, 255, 0.8);
-    // background-clip: padding-box;
-    // background-color: transparent;
-      background-color: rgba(255, 255, 255, 0.9);
   }
 }
 </style>

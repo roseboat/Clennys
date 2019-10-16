@@ -29,6 +29,7 @@ export default {
 
 <style lang="scss">
 .carousel {
+  padding-top: 60px; 
   vertical-align: middle;
   text-align: center;
    background-color: $c-lightgold;

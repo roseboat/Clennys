@@ -4,14 +4,12 @@
       <div class="columns">
         <div class="column large">
           <h2>{{ twoColumn.header1 }}</h2>
-          <p class="preamble">{{ twoColumn.preamble1 }}</p>
-          <p>{{ twoColumn.body1 }}</p>
+          <p>{{ twoColumn.preamble1 }} {{ twoColumn.body1 }}</p>
           <div v-html="twoColumn.bodyHtml1"></div>
         </div>
         <div class="column regular">
           <h2>{{ twoColumn.header2 }}</h2>
-          <p class="preamble">{{ twoColumn.preamble2 }}</p>
-          <p>{{ twoColumn.body2 }}</p>
+          <p>{{ twoColumn.preamble2 }} {{ twoColumn.body2 }}</p>
           <div v-html="twoColumn.bodyHtml2"></div>
         </div>
       </div>
@@ -41,14 +39,10 @@ export default {
 
       .column {
         max-width: 50%;
-        padding: 30px;
-        
-        &.large{
-          padding-right: 15px;
-        }      
-
+        padding: 50px;
+       
         &.regular {
-          padding-left: 15px;
+          
           margin-left: auto;
         }
       }

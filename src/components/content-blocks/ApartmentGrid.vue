@@ -66,8 +66,11 @@ padding-bottom: 10px;
     td {
       font-weight: normal;
     }
+
+
+
     tr:nth-child(even) {
-      background-color: #dddddd;
+      background-color: $c-lightcream;
     }
   }
 }

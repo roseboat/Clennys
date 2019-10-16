@@ -50,7 +50,7 @@ export default {
 
 .restaurant-text {
   position: relative;
-    background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0.9);
   padding: 40px;
 }
 

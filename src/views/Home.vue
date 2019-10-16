@@ -15,7 +15,6 @@
     </div>
   </section>
 
-
     <CollageBlock1/>
     <CollageBlock2/>
     <TestimonialBlock :testimonials="testimonials"/>
@@ -28,6 +27,7 @@
 </template>
 
 <script>
+
 import CollageBlock1 from "@/components/content-blocks/CollageBlock1.vue";
 import CollageBlock2 from "@/components/content-blocks/CollageBlock2.vue";
 import FindUsBlock from "@/components/content-blocks/FindUsBlock.vue";
@@ -46,10 +46,11 @@ export default {
     TestimonialBlock,
     RestaurantBlock,
     DiscoverBlock,
-    CenterText
+    CenterText,
   },
   data() {
     return {
+
       centerText: {
         bookButton: true,
         header: "Your next break starts here."

@@ -4,12 +4,13 @@
 
     <BannerBlock :bannerObj="bannerObj" :key="bannerObj.id" />   
     <TwoColumn :twoColumn="twoColumn" />
+      <ApartmentGrid :apartmentGrid="largeGrid" />
     <CarouselBlock
       id="carousel-block"
       :carouselData="carouselDataLarge"
       v-if="carouselDataLarge"
     />
-    <ApartmentGrid :apartmentGrid="largeGrid" />
+  
     <IconListBlock :iconProps="iconBlock" />
     <TestimonialBlock :testimonials="testimonials" />
     <CenterText :centerTextObj="centerText" />

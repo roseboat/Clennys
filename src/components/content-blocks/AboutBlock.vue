@@ -5,7 +5,7 @@
         <div class="column text">
           <h2>{{ aboutObj.header }}</h2>
           <p class="preamble">{{ aboutObj.preamble }}</p>
-          <p>HIYA {{ aboutObj.body }}</p>
+          <p>{{ aboutObj.body }}</p>
           <div v-html="aboutObj.bodyHtml"></div>
           <router-link to="/about">
             <button v-if="aboutObj.aboutCTA">{{ aboutObj.aboutCTA }}</button>

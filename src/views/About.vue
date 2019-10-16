@@ -37,13 +37,7 @@ export default {
         backgroundImage: "./block_images/front.jpg",
         heading: "Family Business for Over 250 Years",
         preambleHtml:
-          "A rarity, Clenaghans has been in the same family for almost three centuries. From generation to generation, a passion for customer service, atmosphere and attention to detail has been passed down that few other establishments can rival."
-      },
-      aboutObj: {
-        header: "",
-        bodyHtml:
-          "<p>Records show that along with the family farm, there has been a public house on the property for over 250 years. Along with its bar, it was where people from the local community would buy their groceries and get their petrol, as suggested by the antique petrol pump that still stands outside the bar today.</P><p>In its time, Clenaghans has hosted senators, congressmen, presidents and painters, all drawn to its warm and welcoming atmosphere, and its unique ability to transport one into the past.</p>",
-        image: "./block_images/clens_sign.jpg"
+          "A rarity, Clenaghans has been in the same family for almost three centuries. Records show that along with the family farm, there has been a public house on the property for over 250 years.<p>In its time, Clenaghans has hosted senators, congressmen, presidents and painters, all drawn to its warm and welcoming atmosphere.</p>",  
       },
       leftImage: {
         header: "Lavery Connection",

@@ -63,6 +63,9 @@ export default {
 
 @media (min-width: $screen-md) {
   .iconList {
+      padding: 60px 50px 50px 50px;
+
+
     ul li {
       @include font-size(2.5, 3.3);
     }
@@ -70,6 +73,8 @@ export default {
 }
 @media (min-width: $screen-lg) {
   .iconList {
+
+
     ul {
       list-style-type: none;
       -webkit-columns: 3;

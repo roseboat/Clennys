@@ -9,41 +9,11 @@
       style="border:0"
       allowfullscreen
     ></iframe>
-<div class="container">
-  <div class="contact-page-findus">
-  
- <h2>Find Us</h2>
-          <p>Conveniently located a 5 minute drive away from the Moira Junction (Junction 9) of Northern Ireland’s M1 motorway, we are also:</p>
-          <ul>
-            <li>
-              <b>5 minutes</b> from Moira Train Station (direct line to Belfast city center)
-            </li>
-            <li>
-              <b>15 minutes</b> from Lurgan, Lisburn and Craigavon
-            </li>
-            <li>
-              <b>20 minutes</b> from Belfast International Airport
-            </li>
-            <li>
-              <b>25 minutes</b> from Belfast City Center
-            </li>
-            <li>
-              <b>30 minutes</b> from Belfast City Airport
-            </li>
-          </ul>
-          </div>
-<div class="contact-page-findus">
 
-  <h2>Contact Us</h2>
- <p>You can call us on <b>+44 (0)28 92 652 952</b> or email us at <b>info@clenaghans.com</b> or fill out the form below. We'll get back to you as soon as we can. Please remember when contacting us that <b>Clenaghans Restaurant</b> is a separately run establishment.</p>
-      
-
-</div>
-
-
-</div>
 
     <ContactForm />
+
+
        <BannerBlock :bannerObj="bannerObj"/>
     <CenterText :centerTextObj="centerText" />
     <Footer />
@@ -82,10 +52,17 @@ export default {
     document.body.classList.remove("homepage");
     var heights = window.innerHeight;
 
-    if (heights < 660){
+
+if (heights < 1440){
     document.getElementById("contact-page-map").style.height =
       heights - 200 + "px";
-  }}
+} else {
+document.getElementById("contact-page-map").style.height =
+      1200 + "px";
+
+}
+
+  }
 };
 </script>
 
