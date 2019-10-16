@@ -8,7 +8,6 @@
           :perPage="1"
           :paginationEnabled="false"
           :centerMode="true"
- 
         >
           <slide v-bind:key="image.id" v-for="image in carouselData.images">
             <img :src="image" class="carousel-img" />

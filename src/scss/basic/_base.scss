@@ -96,7 +96,6 @@ em {
 	font-style: italic;
 }
 
-
 @media (min-width: $screen-sm) {
 	h1 {
 		@include font-size(5, 5.8);

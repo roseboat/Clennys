@@ -1,6 +1,21 @@
 <template>
   <div class="page">
-    <HomeBanner/>
+<section class="banner">
+    <div class="container">
+      <div class="content">
+        <h1>Clenaghans Accommodation</h1>
+        <p class="preamble">
+          For almost 300 years, we’ve been opening our doors to travellers from around the world.
+          <br>Make us your next stop.
+        </p>
+        <a href="https://app.thebookingbutton.com/properties/bfs6371?" target="_blank">
+          <button class="gold">Check Availability</button>
+        </a>
+      </div>
+    </div>
+  </section>
+
+
     <CollageBlock1/>
     <CollageBlock2/>
     <TestimonialBlock :testimonials="testimonials"/>
@@ -13,7 +28,6 @@
 </template>
 
 <script>
-import HomeBanner from "@/components/content-blocks/HomeBanner.vue";
 import CollageBlock1 from "@/components/content-blocks/CollageBlock1.vue";
 import CollageBlock2 from "@/components/content-blocks/CollageBlock2.vue";
 import FindUsBlock from "@/components/content-blocks/FindUsBlock.vue";
@@ -26,7 +40,6 @@ export default {
   name: "home",
   components: {
     Footer,
-    HomeBanner,
     CollageBlock1,
     CollageBlock2,
     FindUsBlock,
@@ -87,3 +100,37 @@ export default {
   }
 };
 </script>
+
+
+<style scoped lang="scss">
+
+.banner {
+  position: relative;
+  text-align: center;
+  background-image: url("../../public/block_images/ivy-sm.png");
+  background-size: cover;
+  padding: 80px 0px 80px 0px;
+  height: 100%;
+  width: 100%;
+  color: $c-white;
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0.6;
+  }
+}
+.content {
+  position: relative;
+}
+
+@media (min-width: 600px) {
+  .banner {
+    padding: 250px 0px 180px;
+  }
+}
+</style>

@@ -81,9 +81,11 @@ export default {
   mounted() {
     document.body.classList.remove("homepage");
     var heights = window.innerHeight;
+
+    if (heights < 660){
     document.getElementById("contact-page-map").style.height =
       heights - 200 + "px";
-  }
+  }}
 };
 </script>
 
@@ -93,6 +95,7 @@ export default {
   display: block;
   margin: auto;
   width: 100%;
+  height: 100%;
   max-height: 100%;
   max-width: 100%;
 }
