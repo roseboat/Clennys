@@ -74,6 +74,7 @@ padding-bottom: 10px;
 
 @media (min-width: $screen-sm) {
   .apartment-grid {
+     padding-top: 50px;
     table {
       .not-on-mobile {
         display: table-cell;

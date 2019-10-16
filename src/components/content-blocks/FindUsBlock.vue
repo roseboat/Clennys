@@ -110,7 +110,7 @@ export default {
     padding: 80px 0px;
 
     #map {
-      height: 350px;
+      height: 400px;
     }
     .mapBlock {
       margin-right: 80px;

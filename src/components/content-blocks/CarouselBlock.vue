@@ -8,8 +8,7 @@
           :perPage="1"
           :paginationEnabled="false"
           :centerMode="true"
-          :autoplay="true"
-          :speed="5000"
+ 
         >
           <slide v-bind:key="image.id" v-for="image in carouselData.images">
             <img :src="image" class="carousel-img" />
@@ -31,9 +30,9 @@ export default {
 
 <style lang="scss">
 .carousel {
-  background-color: $c-lightgold;
   vertical-align: middle;
   text-align: center;
+   background-color: $c-lightgold;
 
   .carousel-wrapper {
     vertical-align: middle;

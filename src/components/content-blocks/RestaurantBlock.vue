@@ -7,7 +7,7 @@
 
           <p>Also on-site is the award-winning Clenaghans Restaurant which opens Wednesday to Sunday and serves traditional Irish fare using the finest local produce.</p>
           <p>
-            <i>Michelin Bib Gourmand Winner 2019</i>
+            <i>Michelin Bib Gourmand Winner 2018, 2019</i>
           </p>
           <a href="https://clenaghansrestaurant.com/" target="_blank">
             <button>Visit the Restaurant</button>
