@@ -12,7 +12,7 @@ module.exports = {
       registry: undefined,
       awsProfile: 'default',
       region: 'eu-west-1',
-      bucket: 'clenaghans-web',
+      bucket: 'clenaghans.com',
       createBucket: false,
       staticHosting: true,
       staticIndexPage: 'index.html',

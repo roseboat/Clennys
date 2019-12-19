@@ -1,6 +1,6 @@
 <template>
   <div class="page">
-<section class="banner">
+<section class="banner" id="banner">
     <div class="container">
       <div class="content">
         <h1>Clenaghans Accommodation</h1>
@@ -98,6 +98,7 @@ export default {
   },
   mounted() {
     document.body.classList.add("homepage");
+    document.getElementById("banner").style.height = (window.innerHeight -50);
   }
 };
 </script>
@@ -132,6 +133,12 @@ export default {
 @media (min-width: 600px) {
   .banner {
     padding: 250px 0px 180px;
+  }
+}
+
+@media (min-width: 1700px) {
+  .banner {
+    padding: 450px 0px 280px;
   }
 }
 </style>
