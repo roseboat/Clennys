@@ -14,7 +14,7 @@
     "@fortawesome/vue-fontawesome": "^0.1.5",
     "@types/webpack-env": "^1.13.9",
     "core-js": "^2.6.5",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "picturefill": "^3.0.3",
     "vue": "^2.6.10",
     "vue-carousel": "^0.18.0",
